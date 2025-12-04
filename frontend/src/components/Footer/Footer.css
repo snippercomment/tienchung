@@ -1,0 +1,121 @@
+.footer {
+  background: #f9f9ff;
+  padding: 50px 0 20px;
+  border-top: 5px solid #8f3fff;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-col {
+  flex: 1;
+}
+
+/* LEFT */
+.left .logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.left .logo img {
+  width: 200px;
+}
+
+.desc {
+  margin-top: 10px;
+  color: #444;
+}
+
+.info p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+  color: #444;
+}
+
+/* CENTER */
+.center h4,
+.right h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.center ul {
+  list-style: none;
+  padding: 0;
+}
+
+.center ul li {
+  margin: 8px 0;
+  color: #444;
+  cursor: pointer;
+}
+
+.cert-img {
+  margin-top: 15px;
+  width: 120px;
+}
+
+/* RIGHT */
+.newsletter {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.newsletter input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background: #1a3aff;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.socials {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.socials span {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ececff;
+  border-radius: 50%;
+  font-size: 16px;
+  cursor: pointer;
+  color: #333;
+}
+
+/* BOTTOM */
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 15px;
+  color: #555;
+  font-size: 14px;
+}
+
+.footer-bottom span {
+  color: #1a3aff;
+  font-weight: bold;
+}
