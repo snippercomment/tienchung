@@ -1,0 +1,155 @@
+/* ================== BANNER GIỚI THIỆU ================== */
+.intro-container {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  overflow: hidden;
+}
+
+.intro-background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.intro-content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-title {
+  color: #fff;
+  font-size: 52px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-shadow: 0 6px 12px rgba(0, 0, 0, 0.35);
+}
+
+/* ================== PAGE BACKGROUND ================== */
+.introduce-page {
+  background: linear-gradient(
+    180deg,
+    #e8f2f7 0%,
+    #f5fbff 50%,
+    #e8f2f7 100%
+  );
+}
+
+/* ================== COMPANY SECTION ================== */
+.company-section {
+  padding: 80px 0;
+}
+
+.company-content {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.company-text h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.company-text p {
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 14px;
+}
+
+.company-image img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* ================== FEATURES ================== */
+.features-section {
+  max-width: 1200px;
+  margin: 60px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.feature-card {
+  background: #899bd7;
+  padding: 28px 20px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-6px);
+}
+
+.feature-icon {
+  color: #0d47a1;
+  margin-bottom: 14px;
+}
+
+.feature-card h3 {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+/* ================== CONTACT / HỆ THỐNG ================== */
+.contact-section {
+  max-width: 1200px;
+  margin: 80px auto;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.contact-image img {
+  width: 100%;
+  border-radius: 14px;
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.18);
+}
+
+.contact-info h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.contact-info p {
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+/* ================== RESPONSIVE ================== */
+@media (max-width: 992px) {
+  .company-content,
+  .contact-section {
+    grid-template-columns: 1fr;
+  }
+
+  .features-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .intro-title {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 576px) {
+  .features-section {
+    grid-template-columns: 1fr;
+  }
+}

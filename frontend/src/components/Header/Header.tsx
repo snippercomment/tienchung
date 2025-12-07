@@ -6,7 +6,7 @@ import { MdOutlineChatBubbleOutline } from "react-icons/md";
 import logo from '../../assets/logo.jpg'
 import { useState } from "react";
 import SearchBox from "../../pages/SearchBox/SearchBox";
-
+import { Link } from "react-router-dom";
 
 
 const Header= () => {
@@ -16,11 +16,8 @@ const Header= () => {
       {/* TOP */}
       <div className="header-top">
         <div className="logo-box">
-          <img src={logo} alt="Logo" className="logo" />
-          <div className="text-box">
-            <span className="title">VÌ SỨC KHỎE</span>
-            <span className="subtitle">CỘNG ĐỒNG</span>
-          </div>
+         <Link to="/"> <img src={logo} alt="Logo" className="logo" /> </Link>
+          
         </div>
 
         <div className="actions">
@@ -62,13 +59,14 @@ const Header= () => {
 
       {/* MENU */}
       <nav className="menu">
-        <a href="#">Giới thiệu</a>
-        <a href="#">Tiêm chủng trẻ em</a>
-        <a href="#">Tiêm chủng người lớn</a>
-        <a href="#">Gói tiêm</a>
-        <a href="#">Tin tức</a>
-        <a href="#">Liên hệ</a>
-        <a href="#">Về trung tâm</a>
+       <Link to="/gioi-thieu">Giới thiệu</Link>
+       <Link to="/">Tiêm chủng trẻ em</Link>
+       <Link to="/">Tiêm chủng người lớn</Link>
+       <Link to="/">Gói tiêm</Link>
+       <Link to="/">Tin tức</Link>
+       <Link to="/">Liên hệ</Link>
+       <Link to="/">Về trung tâm</Link>
+       
       </nav>
     </header>
   );
