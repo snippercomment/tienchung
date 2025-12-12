@@ -26,28 +26,28 @@ const sections: SectionItem[] = [
     link: "lich-tiem",
   },
   {
-    img: "/images/vaccine2.png",
+    img: "/images/loaivacxin.jpg",
     title: "Các loại vắc xin cho trẻ em",
     desc:
       "Danh sách các loại vắc xin cần thiết giúp trẻ em phát triển khỏe mạnh toàn diện.",
-    link: "/tiem-chung/vac-xin",
+    link: "vac-xin",
   },
   {
-    img: "/images/vaccine3.png",
+    img: "/images/goivacxin.jpg",
     title: "Gói vắc xin cho trẻ em",
     desc:
       "Các gói vắc xin được thiết kế tiết kiệm, phù hợp từng độ tuổi.",
     link: "/tiem-chung/goi-vac-xin",
   },
   {
-    img: "/images/vaccine4.png",
+    img: "/images/quytrinh.jpg",
     title: "Quy trình tiêm chủng",
     desc:
       "Quy trình tiêm chủng an toàn, đạt chuẩn Bộ Y tế, giúp phụ huynh yên tâm.",
     link: "/tiem-chung/quy-trinh",
   },
   {
-    img: "/images/vaccine5.png",
+    img: "/images/banggia.jpg",
     title: "Bảng giá",
     desc: "Thông tin bảng giá minh bạch, rõ ràng.",
     link: "/tiem-chung/bang-gia",

@@ -1,16 +1,16 @@
 
 .vaccination-page {
-  width: 100%;
-  background: #f5f9ff;
-  font-family: Arial, sans-serif;
+   background: #fff;
+  padding: 30px 0;
+  
 }
 
 
 
 .hero-inner {
-  max-width: 1200px;
+  max-width: 1180px;
   margin: auto;
-  padding: 25px 20px;
+  gap: 30px;
 }
 
 .breadcrumb {

@@ -48,10 +48,12 @@
   cursor: pointer;
   color: #333;
   font-size: 14px;
+   position: relative;
 }
 
 .action:hover {
   color: #0b4da3;
+
 }
 
 .hotline {
@@ -83,3 +85,16 @@
 .menu a:hover {
   color: #00A8FF;
 }
+/* .search-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+
+.search-icon:hover {
+  background: #f2f2f2;
+} */
