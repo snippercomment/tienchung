@@ -46,6 +46,7 @@ const VaccineInfo = () => {
     setCurrentSlide(0);
   };
 
+  
   return (
     <div className="vaccine-container">
       <div className="vaccine-content">
@@ -113,15 +114,7 @@ const VaccineInfo = () => {
         </div>
 
        
-        <div className="pagination">
-          {Array.from({ length: maxSlide + 1 }).map((_, index) => (
-            <span
-              key={index}
-              className={`dot ${currentSlide === index ? 'active' : ''}`}
-              onClick={() => setCurrentSlide(index)}
-            />
-          ))}
-        </div>
+       
       </div>
     </div>
   );

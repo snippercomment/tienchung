@@ -5,7 +5,7 @@ import HomePage from "./pages/HomePage/HomePage"
 import Introduce from "./pages/Introduce/Introduce"
 import ChildVaccinationPage from "./pages/ChildVaccinationPage/ChildVaccinationPage"
 import VaccinationSchedule from "./pages/VaccinationSchedule/VaccinationSchedule"
-import VaccineInfo from "./pages/VaccineInfo/VaccineInfo"
+import VaccinePage from "./pages/VaccinePage/VaccinePage"
 
 
 
@@ -19,7 +19,7 @@ function App() {
       <Route path="/gioi-thieu" element={ <Introduce/>} />
       <Route path="/tiem-chung-tre-em" element={<ChildVaccinationPage />} />
       <Route path="/tiem-chung-tre-em/lich-tiem" element={<VaccinationSchedule />} />
-      <Route path="/tiem-chung-tre-em/vac-xin" element={<VaccineInfo/>} />
+      <Route path="/tiem-chung-tre-em/vac-xin" element={<VaccinePage/>} />
     </Routes>
     <Footer/>
     </BrowserRouter>
